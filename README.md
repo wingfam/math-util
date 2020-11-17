@@ -9,9 +9,6 @@ in JDK.
 * README.md - this is file itself to show the home-page of a repo
 * ...
 
-### Image:
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
 ### Connect me via:
 [Gmail] (supmangcua970@gmail.com)
 
