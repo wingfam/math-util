@@ -59,7 +59,11 @@ public class MathUtility {
     // và sửa code, người ta gọi là lập trình hướng theo thõa mãn việc test, TDD
     
     // 2. sout (hàm kèm data) để coi kết quả ra sao, có đúng như EXPECTED
-    // nó có phải trả về như thế hay ko -> xem kết quả test = mắt
+    // nó có phải trả về như thế hay ko -> xem kết quả test = mắt (xanh đỏ)
+    // Máy so sánh giùm EXPECTED & ACTUALL: 
+    // Nếu ALL E == A -> Xanh.
+    // Nếu có ít nhất 1 cặp E != A -> Đỏ.
+    // => Dùng thêm library UnitTest
     
     // 3. JOptionPane của bên JavaDesktop dể popup kết quả ra màn hình
     // vẫn xem = mắt
