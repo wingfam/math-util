@@ -13,6 +13,6 @@ in JDK.
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ### Connect me via:
-[Gmail]: (supmangcua970@gmail.com)
+[Gmail] (supmangcua970@gmail.com)
 
 ### © 2020 by Nguyen Huynh Nhat Minh
