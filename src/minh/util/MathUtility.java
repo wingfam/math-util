@@ -18,6 +18,22 @@ public class MathUtility {
     // hàm tính n giai thừa n >= 0 && n <= 20
     // nếu quá 20 tràn kiểu long
     // 0! = 1; 1! = 1; n! = 1.2.3...n
+//    public static long getFactorial(int n) {
+//        if (n < 0 || n > 20) {
+//            throw new IllegalArgumentException("n >= 0 & n <= 20");
+//            // đưa đầu vào ko hợp, ko nen trả về giá trị âm chỉ sai
+//        }
+//        if (n == 0 || n == 1) {
+//            return 1; //0! = 1! = 1
+//            // đến đây thì n > 1 và n <= 20 rồi
+//        }
+//        long result = 1;
+//        for (int i = 2; i <= n; i++) {
+//            result *= i;
+//        }
+//        return result;
+//    }
+    
     public static long getFactorial(int n) {
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("n >= 0 & n <= 20");
@@ -27,11 +43,10 @@ public class MathUtility {
             return 1; //0! = 1! = 1
             // đến đây thì n > 1 và n <= 20 rồi
         }
-        long result = 1;
-        for (int i = 2; i <= n; i++) {
-            result *= i;
-        }
-        return result;
+        return n * getFactorial(n - 1); // gọi lại chính mình với giai thừa nhỏ hơn
+        // 5! = 5 * 4
+        // 4! = 4 * 3
+        // n! = n * (n - 1)!
     }
     
     public static void main(String[] args) {
